@@ -18,6 +18,7 @@ from starlette.responses import JSONResponse
 
 load_dotenv()
 
+
 IST = timezone(timedelta(hours=5, minutes=30))
 UTC = timezone.utc
 PRESENT_STATUSES = ("PRESENT", "WFH", "ON_DUTY")
