@@ -33,6 +33,7 @@ client = MongoClient(
 )
 db = client[os.getenv("MONGO_DB", "attendance_db")]
 
+
 def create_indexes() -> None:
     db.employees.create_index([("emp_code", ASCENDING)], unique=True, name="employee_code_unique")
     db.employees.create_index(
