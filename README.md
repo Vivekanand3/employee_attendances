@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Employee Attendance & Analytics API
 
 FastAPI and MongoDB API for employee records, attendance punch-in/out, manual regularization, monthly and department
@@ -19,3 +20,6 @@ a 24-hour `HH:MM` time in IST; omitted times use the current time. Never commit 
 =======
 # employee_attendance
 >>>>>>> a1175a09c9acc25848952333c47c25e0edb19b2a
+=======
+# employee_attendances
+>>>>>>> 7a7316aecf4d66ff491939fb6c856026c52e16a3
